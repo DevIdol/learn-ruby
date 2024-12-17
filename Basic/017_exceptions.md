@@ -38,7 +38,7 @@ end
 Ruby မှာ Exception များစွာရှိပြီး အကြောင်းပြချက်အမျိုးမျိုးကြောင့် Exception ကို Raise လုပ်နိုင်ပါတယ်။
 
 ### **3.1 StandardError**
-**StandardError** သည် Ruby မှာ default exception class ဖြစ်ပြီး၊ ဒါဟာ 대부분အမှားတွေကို handle လုပ်ပါတယ်။
+**StandardError** သည် Ruby မှာ default exception class ဖြစ်ပြီး၊ ဒါဟာ mostly အမှားတွေကို handle လုပ်ပါတယ်။
 ```ruby
 begin
   raise StandardError, "This is a standard error"
@@ -50,10 +50,10 @@ end
 ### **3.2 Built-in Exceptions**
 Ruby တွင် built-in Exception Types များကတော့:
 
-- **`ZeroDivisionError`**: Number ကို 0 နဲ့မစားရင် 발생။
+- **`ZeroDivisionError`**: Number ကို 0 နဲ့မစားရင် generation။
 - **`ArgumentError`**: Function/Method မတော်တဆပေါင်းခြင်း။
 - **`TypeError`**: Type မတူတဲ့ value ကို operation လုပ်ခြင်း။
-- **`NameError`**: Variable, method, or class ကို မတွေ့ရင် 발생။
+- **`NameError`**: Variable, method, or class ကို မတွေ့ရင် generation။
 - **`NoMethodError`**: Object ပေါ်မှာ အတည်ပြုထားတဲ့ method မရှိပါ။
 - **`IOError`**: File reading/writing related issues။
 - **`RuntimeError`**: Unspecified runtime issues.
