@@ -1,4 +1,4 @@
-### **Ruby Syntax**
+### **Ruby - Quick Start**
 
 Ruby သည် Readable, Simple, Flexible ဖြစ်ပြီး Object-Oriented Programming (OOP) မှာ အခြေခံထားတဲ့ Programming Language တစ်ခုဖြစ်ပါတယ်။ Syntax က Human-friendly ဖြစ်လို့ ဖတ်ရှုရလွယ်ကူပြီး Beginner-Friendly ဖြစ်ပါတယ်။
 
